@@ -1,0 +1,51 @@
+body {
+  min-height: 100vh;
+}
+
+main {
+  min-height: 100vh;
+}
+
+nav .navbar-brand {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+}
+
+nav button {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+}
+
+header .banner {
+  background-color: aqua;
+  height: 400px;
+}
+
+header .banner .text-banner {
+  text-align: center;
+  padding: 150px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+}
+
+nav ul .nav-item {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+
+.content {
+  margin-top: 25px;
+  margin-left: 150px;
+}
+
+.content-bayar {
+  margin-top: 50px;
+}
+
+.content-checkout {
+  margin-top: 50px;
+}
+
+footer {
+  text-align: center;
+}

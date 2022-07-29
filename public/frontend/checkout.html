@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistem Pembayaran Wifi</title>
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> Sistem Pembayaran Wifi </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kontak</a>
+              </li> -->
+              <!-- mobile button -->
+              <form class="form-inline d-sm-block d-md-none">
+                <div class="d-grid">
+                  <button class="btn btn-outline-primary btn-block">Masuk</button>
+                </div>
+              </form>
+              <!-- desktop button -->
+              <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                <button class="btn btn-outline-primary my-2 my-sm-0">Masuk</button>
+              </form>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <main>
+      <div class="content-checkout">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-6 text-center">
+              <div class="card">
+                <div class="card-body">
+                  <img src="{{url('frontend/images/ic_mail.png')}}" alt="" />
+                  <h1>Yeay Success!!</h1>
+                  <p>
+                    we've sent you email for trip instruction
+                    <br />
+                    please read it as well
+                  </p>
+                  <a href="{{url('/')}}" class="btn btn-primary"> Home Page </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-upload mt-5">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="">Upload Bukti Pembayaran</label>
+                                    <div class="input-group mb-3">
+                                      <input type="file" class="form-control" id="inputGroupFile02" />
+                                      <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                                    </div>
+                                    <button class="btn btn-primary">Upload</button>
+                              </form>
+                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="footer-content border-top mt-2">
+          <p>@2022 created by</p>
+        </div>
+      </div>
+    </footer>
+    <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
